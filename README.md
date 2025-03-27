@@ -15,7 +15,7 @@ using this slight tweak in the build command (package.json).
 The below command will generate the AppImage in `${PWD}/bin` directory.
 
 ```sh
-docker build --output bin --build-arg SIGNAL_VERSION=v7.46.0
+docker build --output bin --build-arg SIGNAL_VERSION=v7.46.0 .
 ```
 
 which can then be run with this command:
